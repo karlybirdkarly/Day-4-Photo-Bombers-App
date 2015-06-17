@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27DF988C65C4400754C67EB5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FABDCCE1AA9191E767857947 /* libPods.a */; };
 		3FAB77F41B312CD600BAAFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB77F31B312CD600BAAFFB /* main.m */; };
 		3FAB77F71B312CD600BAAFFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB77F61B312CD600BAAFFB /* AppDelegate.m */; };
 		3FAB77FA1B312CD600BAAFFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB77F91B312CD600BAAFFB /* ViewController.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2537D1F952E631B565D87B4B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3FAB77EE1B312CD600BAAFFB /* Day 4 Photo Bombers App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 4 Photo Bombers App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAB77F21B312CD600BAAFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FAB77F31B312CD600BAAFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +48,8 @@
 		3FAB78181B3133E900BAAFFB /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		3FAB781A1B3142FD00BAAFFB /* nature_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature_image.jpg; sourceTree = "<group>"; };
 		3FAB781F1B315B5900BAAFFB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		67A412A66F63FF685373D271 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FABDCCE1AA9191E767857947 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DF988C65C4400754C67EB5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098B17AFEE00A41A23ADE233 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67A412A66F63FF685373D271 /* Pods.debug.xcconfig */,
+				2537D1F952E631B565D87B4B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FAB77E51B312CD600BAAFFB = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +87,8 @@
 				3FAB77F01B312CD600BAAFFB /* Day 4 Photo Bombers App */,
 				3FAB780A1B312CD700BAAFFB /* Day 4 Photo Bombers AppTests */,
 				3FAB77EF1B312CD600BAAFFB /* Products */,
+				098B17AFEE00A41A23ADE233 /* Pods */,
+				BAC99E9AD74A1DF26C5B05B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +145,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BAC99E9AD74A1DF26C5B05B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABDCCE1AA9191E767857947 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FAB78111B312CD700BAAFFB /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers App" */;
 			buildPhases = (
+				85D4125444AC18A4C7DEFDCD /* Check Pods Manifest.lock */,
 				3FAB77EA1B312CD600BAAFFB /* Sources */,
 				3FAB77EB1B312CD600BAAFFB /* Frameworks */,
 				3FAB77EC1B312CD600BAAFFB /* Resources */,
+				ABBC0517AB38DB3057A0C543 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +250,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85D4125444AC18A4C7DEFDCD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABBC0517AB38DB3057A0C543 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FAB77EA1B312CD600BAAFFB /* Sources */ = {
@@ -353,6 +412,7 @@
 		};
 		3FAB78121B312CD700BAAFFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A412A66F63FF685373D271 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Day 4 Photo Bombers App/Info.plist";
@@ -363,6 +423,7 @@
 		};
 		3FAB78131B312CD700BAAFFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2537D1F952E631B565D87B4B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Day 4 Photo Bombers App/Info.plist";
