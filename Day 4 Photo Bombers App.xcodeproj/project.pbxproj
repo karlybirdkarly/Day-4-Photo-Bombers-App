@@ -45,6 +45,7 @@
 		3FAB78171B3133E900BAAFFB /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		3FAB78181B3133E900BAAFFB /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		3FAB781A1B3142FD00BAAFFB /* nature_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature_image.jpg; sourceTree = "<group>"; };
+		3FAB781F1B315B5900BAAFFB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		3FAB77E51B312CD600BAAFFB = {
 			isa = PBXGroup;
 			children = (
+				3FAB781F1B315B5900BAAFFB /* Podfile */,
 				3FAB77F01B312CD600BAAFFB /* Day 4 Photo Bombers App */,
 				3FAB780A1B312CD700BAAFFB /* Day 4 Photo Bombers AppTests */,
 				3FAB77EF1B312CD600BAAFFB /* Products */,
@@ -422,6 +424,7 @@
 				3FAB78131B312CD700BAAFFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FAB78141B312CD700BAAFFB /* Build configuration list for PBXNativeTarget "Day 4 Photo Bombers AppTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +433,7 @@
 				3FAB78161B312CD700BAAFFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
