@@ -19,6 +19,8 @@
 		3FAB781B1B3142FD00BAAFFB /* nature_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FAB781A1B3142FD00BAAFFB /* nature_image.jpg */; };
 		CEB019131B3272340069A94D /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB019121B3272340069A94D /* PhotoController.m */; };
 		CEB019191B328D7A0069A94D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB019181B328D7A0069A94D /* DetailViewController.m */; };
+		CEB0191C1B3294A20069A94D /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0191B1B3294A20069A94D /* PresentDetailTransition.m */; };
+		CEB0191F1B3299ED0069A94D /* DissmissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0191E1B3299ED0069A94D /* DissmissDetailTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		CEB019121B3272340069A94D /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		CEB019171B328D7A0069A94D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		CEB019181B328D7A0069A94D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CEB0191A1B3294A20069A94D /* PresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailTransition.h; sourceTree = "<group>"; };
+		CEB0191B1B3294A20069A94D /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
+		CEB0191D1B3299ED0069A94D /* DissmissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissmissDetailTransition.h; sourceTree = "<group>"; };
+		CEB0191E1B3299ED0069A94D /* DissmissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissmissDetailTransition.m; sourceTree = "<group>"; };
 		FABDCCE1AA9191E767857947 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +122,8 @@
 				3FAB77F91B312CD600BAAFFB /* ViewController.m */,
 				CEB019171B328D7A0069A94D /* DetailViewController.h */,
 				CEB019181B328D7A0069A94D /* DetailViewController.m */,
+				CEB0191A1B3294A20069A94D /* PresentDetailTransition.h */,
+				CEB0191B1B3294A20069A94D /* PresentDetailTransition.m */,
 				3FAB78171B3133E900BAAFFB /* PhotoCollectionViewCell.h */,
 				3FAB78181B3133E900BAAFFB /* PhotoCollectionViewCell.m */,
 				3FAB77FB1B312CD600BAAFFB /* Main.storyboard */,
@@ -124,6 +132,8 @@
 				3FAB77F11B312CD600BAAFFB /* Supporting Files */,
 				CEB019111B3272340069A94D /* PhotoController.h */,
 				CEB019121B3272340069A94D /* PhotoController.m */,
+				CEB0191D1B3299ED0069A94D /* DissmissDetailTransition.h */,
+				CEB0191E1B3299ED0069A94D /* DissmissDetailTransition.m */,
 			);
 			path = "Day 4 Photo Bombers App";
 			sourceTree = "<group>";
@@ -301,8 +311,10 @@
 			files = (
 				3FAB77FA1B312CD600BAAFFB /* ViewController.m in Sources */,
 				3FAB78191B3133E900BAAFFB /* PhotoCollectionViewCell.m in Sources */,
+				CEB0191F1B3299ED0069A94D /* DissmissDetailTransition.m in Sources */,
 				3FAB77F71B312CD600BAAFFB /* AppDelegate.m in Sources */,
 				3FAB77F41B312CD600BAAFFB /* main.m in Sources */,
+				CEB0191C1B3294A20069A94D /* PresentDetailTransition.m in Sources */,
 				CEB019131B3272340069A94D /* PhotoController.m in Sources */,
 				CEB019191B328D7A0069A94D /* DetailViewController.m in Sources */,
 			);
