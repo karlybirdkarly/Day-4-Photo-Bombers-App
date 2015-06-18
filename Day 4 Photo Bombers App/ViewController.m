@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-#import <SimpleAuth/SimpleAuth.h>
-
 #import "PhotoCollectionViewCell.h"
+#import <SimpleAuth/SimpleAuth.h>
+#import "DetailViewController.h"
+
 
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -117,6 +118,18 @@
     
     
     return cell;
+    
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSDictionary *photo = self.photos[indexPath.row];
+    
+    DetailViewController *viewController  = [DetailViewController new];
+    viewController.modalPresentationStyle = UIModalPresentationCurrentContext;
+    viewController.photo = photo;
+    
+    [self presentViewController:viewController animated:YES completion:nil];
     
 }
 

@@ -18,6 +18,7 @@
 		3FAB78191B3133E900BAAFFB /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB78181B3133E900BAAFFB /* PhotoCollectionViewCell.m */; };
 		3FAB781B1B3142FD00BAAFFB /* nature_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FAB781A1B3142FD00BAAFFB /* nature_image.jpg */; };
 		CEB019131B3272340069A94D /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB019121B3272340069A94D /* PhotoController.m */; };
+		CEB019191B328D7A0069A94D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB019181B328D7A0069A94D /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		67A412A66F63FF685373D271 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CEB019111B3272340069A94D /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
 		CEB019121B3272340069A94D /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		CEB019171B328D7A0069A94D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CEB019181B328D7A0069A94D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FABDCCE1AA9191E767857947 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,6 +114,8 @@
 				3FAB77F61B312CD600BAAFFB /* AppDelegate.m */,
 				3FAB77F81B312CD600BAAFFB /* ViewController.h */,
 				3FAB77F91B312CD600BAAFFB /* ViewController.m */,
+				CEB019171B328D7A0069A94D /* DetailViewController.h */,
+				CEB019181B328D7A0069A94D /* DetailViewController.m */,
 				3FAB78171B3133E900BAAFFB /* PhotoCollectionViewCell.h */,
 				3FAB78181B3133E900BAAFFB /* PhotoCollectionViewCell.m */,
 				3FAB77FB1B312CD600BAAFFB /* Main.storyboard */,
@@ -299,6 +304,7 @@
 				3FAB77F71B312CD600BAAFFB /* AppDelegate.m in Sources */,
 				3FAB77F41B312CD600BAAFFB /* main.m in Sources */,
 				CEB019131B3272340069A94D /* PhotoController.m in Sources */,
+				CEB019191B328D7A0069A94D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
