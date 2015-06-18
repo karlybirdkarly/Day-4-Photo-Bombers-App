@@ -17,6 +17,7 @@
 		3FAB780E1B312CD700BAAFFB /* Day_4_Photo_Bombers_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB780D1B312CD700BAAFFB /* Day_4_Photo_Bombers_AppTests.m */; };
 		3FAB78191B3133E900BAAFFB /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB78181B3133E900BAAFFB /* PhotoCollectionViewCell.m */; };
 		3FAB781B1B3142FD00BAAFFB /* nature_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FAB781A1B3142FD00BAAFFB /* nature_image.jpg */; };
+		CEB019131B3272340069A94D /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB019121B3272340069A94D /* PhotoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		3FAB781A1B3142FD00BAAFFB /* nature_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature_image.jpg; sourceTree = "<group>"; };
 		3FAB781F1B315B5900BAAFFB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		67A412A66F63FF685373D271 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB019111B3272340069A94D /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		CEB019121B3272340069A94D /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		FABDCCE1AA9191E767857947 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +117,8 @@
 				3FAB77FE1B312CD600BAAFFB /* Images.xcassets */,
 				3FAB78001B312CD600BAAFFB /* LaunchScreen.xib */,
 				3FAB77F11B312CD600BAAFFB /* Supporting Files */,
+				CEB019111B3272340069A94D /* PhotoController.h */,
+				CEB019121B3272340069A94D /* PhotoController.m */,
 			);
 			path = "Day 4 Photo Bombers App";
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 				3FAB78191B3133E900BAAFFB /* PhotoCollectionViewCell.m in Sources */,
 				3FAB77F71B312CD600BAAFFB /* AppDelegate.m in Sources */,
 				3FAB77F41B312CD600BAAFFB /* main.m in Sources */,
+				CEB019131B3272340069A94D /* PhotoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
